@@ -5,7 +5,8 @@
 // The header file is automatically created when building the package. 
 #include "ros_tutorials_topic/MsgTutorial.h"
 
-int main(int argc, char **argv) // Node Main Function {
+int main(int argc, char **argv) // Node Main Function 
+{
 
 	ros::init(argc, argv, "topic_publisher"); // Initializes Node Name
 	ros::NodeHandle nh; // Node handle declaration for communication with ROS system
